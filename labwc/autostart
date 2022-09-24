@@ -1,0 +1,6 @@
+swaybg -i .aurora.jpg >/dev/null 2>&1 &
+waybar >/dev/null 2>&1 &
+brightnessctl >/dev/null 2>&1 &
+keyd >/dev/null 2>&1 &
+mako >/dev/null 2>&1 &
+
