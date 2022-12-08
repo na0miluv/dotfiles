@@ -1,0 +1,141 @@
+ <menu id="Accesorios" label="Accesorios">
+      <item label="Albert">
+       <action name="Execute"><execute>albert</execute></action>
+     </item>
+      <item label="Editor de texto">
+       <action name="Execute"><execute>xed </execute></action>
+     </item>
+      <item label="Gestor de extensiones">
+       <action name="Execute"><execute>extension-manager </execute></action>
+     </item>
+      <item label="Gestor tipográfico" icon="/usr/share/icons/hicolor/128x128/apps/org.gnome.FontManager.png">
+       <action name="Execute"><execute>font-manager </execute></action>
+     </item>
+      <item label="Micro">
+       <action name="Execute"><execute>xterm -e micro </execute></action>
+     </item>
+      <item label="Plank" icon="/usr/share/icons/hicolor/16x16/apps/plank.svg">
+       <action name="Execute"><execute>plank</execute></action>
+     </item>
+      <item label="Visor tipográfico" icon="/usr/share/icons/hicolor/128x128/apps/org.gnome.FontViewer.png">
+       <action name="Execute"><execute>/usr/lib/font-manager/font-viewer </execute></action>
+     </item>
+      <item label="Xarchiver" icon="/usr/share/icons/hicolor/16x16/apps/xarchiver.png">
+       <action name="Execute"><execute>xarchiver </execute></action>
+     </item>
+      <item label="gedit">
+       <action name="Execute"><execute>gedit </execute></action>
+     </item>
+      <item label="nitrogen" icon="/usr/share/icons/hicolor/16x16/apps/nitrogen.png">
+       <action name="Execute"><execute>nitrogen</execute></action>
+     </item>
+ </menu> <!-- Accesorios -->
+ <menu id="Educación" label="Educación">
+      <item label="LibreOffice Math" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-math.png">
+       <action name="Execute"><execute>libreoffice --math </execute></action>
+     </item>
+ </menu> <!-- Educación -->
+ <menu id="Gráficos" label="Gráficos">
+      <item label="LibreOffice Draw" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-draw.png">
+       <action name="Execute"><execute>libreoffice --draw </execute></action>
+     </item>
+      <item label="Programa de manipulación de imágenes de GNU" icon="/usr/share/icons/hicolor/16x16/apps/gimp.png">
+       <action name="Execute"><execute>gimp-2.10 </execute></action>
+     </item>
+      <item label="qView" icon="/usr/share/icons/hicolor/16x16/apps/com.interversehq.qView.png">
+       <action name="Execute"><execute>qview </execute></action>
+     </item>
+ </menu> <!-- Gráficos -->
+ <menu id="Herramientas del sistema" label="Herramientas del sistema">
+      <item label="Cambio de nombre en masa" icon="/usr/share/icons/hicolor/16x16/apps/org.xfce.thunar.png">
+       <action name="Execute"><execute>thunar --bulk-rename </execute></action>
+     </item>
+      <item label="Gestor de archivos Thunar" icon="/usr/share/icons/hicolor/16x16/apps/org.xfce.thunar.png">
+       <action name="Execute"><execute>thunar </execute></action>
+     </item>
+      <item label="Htop" icon="/usr/share/pixmaps/htop.png">
+       <action name="Execute"><execute>xterm -e htop</execute></action>
+     </item>
+      <item label="Navegador Zeroconf de Avahi">
+       <action name="Execute"><execute>/usr/bin/avahi-discover</execute></action>
+     </item>
+      <item label="OpenJDK Java 19 Console">
+       <action name="Execute"><execute>/usr/lib/jvm/java-19-openjdk/bin/jconsole</execute></action>
+     </item>
+      <item label="OpenJDK Java 19 Shell">
+       <action name="Execute"><execute>xterm -e /usr/lib/jvm/java-19-openjdk/bin/jshell</execute></action>
+     </item>
+      <item label="gmrun" icon="/usr/share/pixmaps/gmrun.png">
+       <action name="Execute"><execute>gmrun</execute></action>
+     </item>
+      <item label="kitty" icon="/usr/share/icons/hicolor/256x256/apps/kitty.png">
+       <action name="Execute"><execute>kitty</execute></action>
+     </item>
+ </menu> <!-- Herramientas del sistema -->
+ <menu id="Internet" label="Internet">
+      <item label="Discord" icon="/usr/share/pixmaps/discord.png">
+       <action name="Execute"><execute>/usr/bin/discord</execute></action>
+     </item>
+      <item label="Examinador de servidores SSH de Avahi">
+       <action name="Execute"><execute>/usr/bin/bssh</execute></action>
+     </item>
+      <item label="Examinador de servidores VNC de Avahi">
+       <action name="Execute"><execute>/usr/bin/bvnc</execute></action>
+     </item>
+      <item label="Firefox" icon="/usr/share/icons/hicolor/16x16/apps/firefox.png">
+       <action name="Execute"><execute>/usr/lib/firefox/firefox </execute></action>
+     </item>
+      <item label="Kotatogram Desktop" icon="/usr/share/icons/hicolor/16x16/apps/kotatogram.png">
+       <action name="Execute"><execute>kotatogram-desktop -- </execute></action>
+     </item>
+      <item label="Steam (Runtime)" icon="/usr/share/icons/hicolor/16x16/apps/steam.png">
+       <action name="Execute"><execute>/usr/bin/steam-runtime </execute></action>
+     </item>
+ </menu> <!-- Internet -->
+ <menu id="Juegos" label="Juegos">
+      <item label="Steam (Runtime)" icon="/usr/share/icons/hicolor/16x16/apps/steam.png">
+       <action name="Execute"><execute>/usr/bin/steam-runtime </execute></action>
+     </item>
+ </menu> <!-- Juegos -->
+ <menu id="Oficina" label="Oficina">
+      <item label="LibreOffice Base" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-base.png">
+       <action name="Execute"><execute>libreoffice --base </execute></action>
+     </item>
+      <item label="LibreOffice Calc" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-calc.png">
+       <action name="Execute"><execute>libreoffice --calc </execute></action>
+     </item>
+      <item label="LibreOffice Draw" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-draw.png">
+       <action name="Execute"><execute>libreoffice --draw </execute></action>
+     </item>
+      <item label="LibreOffice Impress" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-impress.png">
+       <action name="Execute"><execute>libreoffice --impress </execute></action>
+     </item>
+      <item label="LibreOffice Math" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-math.png">
+       <action name="Execute"><execute>libreoffice --math </execute></action>
+     </item>
+      <item label="LibreOffice Start Center" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-startcenter.png">
+       <action name="Execute"><execute>libreoffice </execute></action>
+     </item>
+      <item label="LibreOffice Writer" icon="/usr/share/icons/hicolor/16x16/apps/libreoffice-writer.png">
+       <action name="Execute"><execute>libreoffice --writer </execute></action>
+     </item>
+ </menu> <!-- Oficina -->
+ <menu id="Programación" label="Programación">
+      <item label="Micro">
+       <action name="Execute"><execute>xterm -e micro </execute></action>
+     </item>
+ </menu> <!-- Programación -->
+ <menu id="Sonido y vídeo" label="Sonido y vídeo">
+      <item label="Control de volumen de PulseAudio">
+       <action name="Execute"><execute>pavucontrol</execute></action>
+     </item>
+      <item label="Qt V4L2 test Utility" icon="/usr/share/icons/hicolor/16x16/apps/qv4l2.png">
+       <action name="Execute"><execute>qv4l2</execute></action>
+     </item>
+      <item label="Qt V4L2 video capture utility" icon="/usr/share/icons/hicolor/16x16/apps/qvidcap.png">
+       <action name="Execute"><execute>qvidcap</execute></action>
+     </item>
+      <item label="Volume Icon">
+       <action name="Execute"><execute>volumeicon</execute></action>
+     </item>
+ </menu> <!-- Sonido y vídeo -->

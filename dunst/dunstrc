@@ -1,0 +1,25 @@
+[global]
+font = Ubuntu 11
+markup = yes
+plain_text=no
+format = "<b>%a</b> - %s<span font="Ubuntu 9">\n%b%p</span>"
+corner_radius = 13
+stack_duplicates = true
+icon_theme Papirus
+show_indicators = true
+history_lenght = 20
+frame_color = "#1E66F5"
+separator_color= frame
+
+[urgency_low]
+background = "#EFF1F5"
+foreground = "#4C4F69"
+
+[urgency_normal]
+background = "#EFF1F5"
+foreground = "#4C4F69"
+
+[urgency_critical]
+background = "#EFF1F5"
+foreground = "#4C4F69"
+frame_color = "#FE640B"

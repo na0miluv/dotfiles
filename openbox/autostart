@@ -1,0 +1,36 @@
+# Programs that will run after Openbox has started
+
+#Menu system
+(sleep 2s; jgmenu --hide-on-startup) &
+
+# Run a Composite manager
+picom &
+
+# Set the wallpaper
+nitrogen --restore &
+
+# SCIM support (for typing non-english characters)
+scim -d &
+
+# A panel for good times
+#polybar &
+tint2 &
+
+#Touchpad indicator for natural scrolling and automatic disabling when a mouse is plugged
+touchpad-indicator &
+
+# Application runner
+rofi -show drun &
+
+#Notification daemon
+dunst &
+
+# Window snapping
+opensnap &
+
+# Tray icons in order: battery, network, volume, bluetooth
+nm-applet &
+cbatticon &
+volumeicon &
+blueman-tray &
+
